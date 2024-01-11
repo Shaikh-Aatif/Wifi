@@ -1,0 +1,8 @@
+after completing auth it should navigate to desired page which user intented to go 
+challenge: using authenticator which encapsulates own you 
+now the thing is we need to use go router and authenticator 
+
+
+
+user roles/Groups 
+
