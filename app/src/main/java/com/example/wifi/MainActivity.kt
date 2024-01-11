@@ -25,9 +25,7 @@ class MainActivity : AppCompatActivity() {
         if (phone != null) {
             Toast.makeText(baseContext, phone, Toast.LENGTH_LONG).show()
             receiver.onReceive(baseContext, intent)
-
         }
-
         val i = Intent(this, MainActivity2::class.java)
         startActivity(i)
         val alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
